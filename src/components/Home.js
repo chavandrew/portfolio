@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-
+import './Home.css'
+import sky from '../assets/img/westgrass.jpg'
 
 
 class Home extends Component {
@@ -7,7 +8,7 @@ class Home extends Component {
     return (
       <div>
 
-
+        <img src={sky}/>
      </div>
 
   );
