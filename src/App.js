@@ -13,6 +13,7 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import Footer from './components/Footer'
 
 
 
@@ -22,25 +23,32 @@ class App extends Component {
       <div className="App">
         <Router>
               <div>
+                <div className='homeimg'>
+
+                    <h2>Andrew Chavez </h2>
+                    <p> web developer</p>
                 <nav className='tabs'>
-                  <NavLink className='link' exact to='/'></NavLink>{' '}
-                  <NavLink className='link' to='/home'>Home</NavLink>{' '}
+                  <NavLink className='link' exact to='/'>Home</NavLink>{' '}
                   <NavLink className='link' to='/projects'>Projects</NavLink>{' '}
                   <NavLink className='link' to='/resume'>Resume</NavLink>{' '}
                   <NavLink className='link' to='/contact'>Contact</NavLink>{' '}
                 </nav>
 
-              <h2>Andrew Chavez </h2>
+
+              
+            </div>
+
 
                 <Switch>
-                 <Route exact path="/" />
-                 <Route path="/home" component={Home}/>
-                 <Route path="/about" component={Projects} />
-                 <Route path="/addcard" component={Resume} />
-                 <Route path="/addcard" component={Contact} />
+                 <Route exact path="/" component={Home}/>
+                 <Route path="/projects" component={Projects} />
+                 <Route path="/resume" component={Resume} />
+                 <Route path="/contact" component={Contact} />
               </Switch>
               </div>
             </Router>
+
+        <Footer />
       </div>
     );
   }

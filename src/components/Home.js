@@ -6,9 +6,9 @@ import sky from '../assets/img/westgrass.jpg'
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div className='westgrass'>
+      
 
-        <img src={sky}/>
      </div>
 
   );

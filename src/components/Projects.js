@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
-
+import './Projects.css'
 
 
 class Projects extends Component {
   render() {
     return (
-      <div>
+      <body class="hero-image">
+      <div class="hero-text">
 
 
-      </div>
-
+    </div>
+  </body>
   );
   }
 }
