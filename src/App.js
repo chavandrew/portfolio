@@ -23,6 +23,7 @@ class App extends Component {
       <div className="App">
         <Router>
               <div>
+                <div className="response">
                 <div className='homeimg'>
                     <h2>andrew chavez </h2>
                     <p> web developer</p>
@@ -41,10 +42,14 @@ class App extends Component {
                  <Route path="/resume" component={Resume} />
                  <Route path="/contact" component={Contact} />
               </Switch>
-              </div>
+
+            </div>
+            </div>
             </Router>
 
+
         <Footer />
+
       </div>
     );
   }

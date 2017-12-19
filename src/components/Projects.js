@@ -11,26 +11,26 @@ class Projects extends Component {
   render() {
     return (
 
-      <section class="responsive">
+    <section className="responsive">
 
-      <ul class="grid-container">
+      <ul className="grid-container">
         <li> <div className='flip'><img src={eargsound}/></div>
           <h3>Eargasmr</h3>
-          <p>In the real world, you don't know how long the content will be. Writers will write what they need. Photos will be cropped to the shape that they should be. That's good. Make a system that allows this. You want it to be flexible and robust. <a href="#">View more.</a></p>
+          <p> <a href="#">View more.</a></p>
         </li>
         <li><div className='earg'><img src={flippers}/></div>
 
           <h3>Flippers</h3>
-          <p>In the real world, you don't know how long the content will be. Writers will write what they need. Photos will be cropped to the shape that they should be. <a href="#">View more.</a></p>
-        </li>
-        <li><div className='earg'><img src={tictac}/></div>
-          <h3>Pupfetchr</h3>
-          <p>In the real world, you don't know how long the content will be. Writers will write what they need. <a href="#">View more.</a></p>
+          <p> <a href="https://flippers-tavern.firebaseapp.com/">View more.</a></p>
         </li>
         <li><div className='earg'><img src={pupfetch}/></div>
+          <h3>Pupfetchr</h3>
+          <p><a href="#">View more.</a></p>
+        </li>
+        <li><div className='earg'><img src={tictac}/></div>
 
           <h3>Tic-Tac-Toe</h3>
-          <p>In the real world, you don't know how long the content will be. Writers will write what they need. <a href="#">View more.</a></p>
+          <p> <a href="#">View more.</a></p>
         </li>
       </ul>
     </section>

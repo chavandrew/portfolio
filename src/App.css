@@ -6,14 +6,14 @@
 h2{
   font-family: 'Barlow', sans-serif;
   font-size: 84px;
-  color: black;
+  color: white;
   margin-bottom: 10px;
   margin-top: 5px;
 }
 p{
   margin-bottom: 40px;
   font-family: 'Barlow', sans-serif;
-  color:black;
+  color:white;
 }
 nav{
 padding: 0;
@@ -23,28 +23,21 @@ justify-content: center;
 margin: 20px 0 60px 0;
 font-family: 'Barlow';
 }
-/*.homeimg{
-    background: url('./assets/img/westgrass.jpg');
-  background-size: 100px;
-  height: 60%;*/
+.homeimg{
+  background: url('./assets/img/west-tex.png');
+
+  height: 60%;
   /* Position and center the image to scale nicely on all screens */
-  /*background-position: center;
-  background-repeat: right;
+  background-position: bottom;
   background-size: cover;
-  position: relative;
-
-
-}*/
-
-
+}
 nav.tabs {
   max-width: 95%;
 }
 nav.tabs a {
   display: inline-block;
-  color: black;
+  color: white;
   padding: 3px 60px;
-  margin-bottom: 0;
   text-decoration: none;
 }
 nav.tabs a.active {
@@ -64,4 +57,14 @@ nav.tabs a.active {
  /*background-color: #FDFFFC;*/
  color: #DDE0BD;
  padding: 24px 10px;
+}
+.response ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+@media (min-width: 550px) {
+  .tabs{
+    font-size: 2rem;
+  }
 }

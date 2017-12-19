@@ -1,78 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow');
 
-
-/*.ear , .mix{
-  width: 15%;
-  height: 5%;;
-}
-.tic, .flip, .pup{
-  width: 40%;
-}*/
-/*.project-images{
-  display: flex;
-  justify-content: space-between;
-}*/
-/*.text{
-  font-family: 'Barlow', sans-serif;
-
-}
-.img-row {
-  margin-bottom: 45px;
-}*/
-/*div project-images {
-  margin: .5vw;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  width:10%;
-  height: auto;
-
-
-}*/
-
-
-/*.wrapper {
-  display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-}
-
-.home-hero {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-flex: 0 1 calc(50% - 1em);
-}
-
-.home-hero > * {
-  padding: 10px;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  color: #fff;
-}
-.eargm{
-  background-image: url('../assets/img/earg-mix.png');
-   background-position: center;
-}
-.flips{
-  background-image: url('../assets/img/flippers.png');
-
-
-}
-.tic{
-  background-image: url('../assets/img/tic-tac.png');
-}
-.pup{
-    background-image: url('../assets/img/pupfetch.png');
-}
-p.info{
-  color: black;
-}*/
-.flip{
-  background-image: url('../assets/img/flippers.png');
-}
-
 .row,
 .row > .column {
     padding: 8px;
@@ -128,16 +55,19 @@ h1 a {
 
 a {
   color: dodgerblue;
+  text-decoration: none;
+  font-family: 'Barlow';
+
 }
 
 a:hover {
-  color: #777;
+  color: #DDE0BD;
 }
 
 img {
   display: block;
   width: 100%;
-  border: 6px solid lightsteelblue;
+
 }
 
 section {
@@ -146,7 +76,7 @@ section {
 
 h1 {
   font-size: 4rem;
-  text-transform: uppercase;
+
   margin: 2rem 3rem;
   border-bottom: 1px solid #BBB;
 
@@ -155,12 +85,11 @@ h1 {
 h2 {
   font-size: 3rem;
   margin: 0 0 0 15px;
-  text-transform: uppercase;
+
 }
 
 h3 {
   font-size: 1.5rem;
-  text-transform: uppercase;
   margin: 2rem 0 0 0;
   line-height: 0.5;
   font-family: 'Barlow';
@@ -176,11 +105,6 @@ p{
   grid-gap: 1rem;
 }
 
-.responsive2 ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-gap: 1rem;
-}
 
 ul {
   list-style: none;
