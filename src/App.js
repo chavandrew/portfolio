@@ -24,8 +24,7 @@ class App extends Component {
         <Router>
               <div>
                 <div className='homeimg'>
-
-                    <h2>Andrew Chavez </h2>
+                    <h2>andrew chavez </h2>
                     <p> web developer</p>
                 <nav className='tabs'>
                   <NavLink className='link' exact to='/'>Home</NavLink>{' '}
@@ -33,9 +32,6 @@ class App extends Component {
                   <NavLink className='link' to='/resume'>Resume</NavLink>{' '}
                   <NavLink className='link' to='/contact'>Contact</NavLink>{' '}
                 </nav>
-
-
-              
             </div>
 
 

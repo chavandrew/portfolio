@@ -1,22 +1,201 @@
-.hero-image {
+@import url('https://fonts.googleapis.com/css?family=Barlow');
 
-    background: black;
 
-    height: 50%;
+/*.ear , .mix{
+  width: 15%;
+  height: 5%;;
+}
+.tic, .flip, .pup{
+  width: 40%;
+}*/
+/*.project-images{
+  display: flex;
+  justify-content: space-between;
+}*/
+/*.text{
+  font-family: 'Barlow', sans-serif;
 
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+}
+.img-row {
+  margin-bottom: 45px;
+}*/
+/*div project-images {
+  margin: .5vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width:10%;
+  height: auto;
+
+
+}*/
+
+
+/*.wrapper {
+  display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
 }
 
-/* Place text in the middle of the image */
-.hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+.home-hero {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex: 0 1 calc(50% - 1em);
+}
+
+.home-hero > * {
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #fff;
+}
+.eargm{
+  background-image: url('../assets/img/earg-mix.png');
+   background-position: center;
+}
+.flips{
+  background-image: url('../assets/img/flippers.png');
+
+
+}
+.tic{
+  background-image: url('../assets/img/tic-tac.png');
+}
+.pup{
+    background-image: url('../assets/img/pupfetch.png');
+}
+p.info{
+  color: black;
+}*/
+.flip{
+  background-image: url('../assets/img/flippers.png');
+}
+
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+font-family: 'Barlow';
+
+  color: #333;
+}
+
+h1 a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 0;
+}
+
+a {
+  color: dodgerblue;
+}
+
+a:hover {
+  color: #777;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border: 6px solid lightsteelblue;
+}
+
+section {
+  margin: 2rem 3rem;
+}
+
+h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin: 2rem 3rem;
+  border-bottom: 1px solid #BBB;
+
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 0 0 0 15px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin: 2rem 0 0 0;
+  line-height: 0.5;
+  font-family: 'Barlow';
+
+}
+p{
+  font-family: 'Barlow';
+}
+
+.responsive ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+
+.responsive2 ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 1rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0rem;
+  padding: 1rem;
+
+}
+
+li {
+  background: #FFF;
+  padding: 1rem;
+}
+
+@media (max-width: 550px) {
+  h1, h2 {
+    font-size: 2rem;
+  }
 }

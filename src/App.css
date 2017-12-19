@@ -8,10 +8,12 @@ h2{
   font-size: 84px;
   color: black;
   margin-bottom: 10px;
+  margin-top: 5px;
 }
 p{
   margin-bottom: 40px;
   font-family: 'Barlow', sans-serif;
+  color:black;
 }
 nav{
 padding: 0;
@@ -21,16 +23,18 @@ justify-content: center;
 margin: 20px 0 60px 0;
 font-family: 'Barlow';
 }
-.homeimg{
-  /*background-image: url('./assets/img/westgrass.jpg');*/
+/*.homeimg{
+    background: url('./assets/img/westgrass.jpg');
   background-size: 100px;
-  height: 60%;
+  height: 60%;*/
   /* Position and center the image to scale nicely on all screens */
-  background-position: center;
+  /*background-position: center;
   background-repeat: right;
   background-size: cover;
   position: relative;
-}
+
+
+}*/
 
 
 nav.tabs {
