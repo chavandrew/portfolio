@@ -26,12 +26,12 @@ class App extends Component {
                 <div className="response">
                 <div className='homeimg'>
                     <h2>andrew chavez </h2>
-                    <p> web developer</p>
+                    <p className='dev'> web developer</p>
                 <nav className='tabs'>
-                  <NavLink className='link' exact to='/'>Home</NavLink>{' '}
-                  <NavLink className='link' to='/projects'>Projects</NavLink>{' '}
-                  <NavLink className='link' to='/resume'>Resume</NavLink>{' '}
-                  <NavLink className='link' to='/contact'>Contact</NavLink>{' '}
+                  <NavLink className='link' exact to='/'>home</NavLink>{' '}
+                  <NavLink className='link' to='/projects'>projects</NavLink>{' '}
+                  <NavLink className='link' to='/resume'>resume</NavLink>{' '}
+                  <NavLink className='link' to='/contact'>contact</NavLink>{' '}
                 </nav>
             </div>
 

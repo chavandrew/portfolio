@@ -14,20 +14,20 @@ class Projects extends Component {
     <section className="responsive">
 
       <ul className="grid-container">
-        <li> <div className='flip'><img src={eargsound}/></div>
+        <li> <div className='grow'><img src={eargsound}/></div>
           <h3>Eargasmr</h3>
-          <p> <a href="#">View more.</a></p>
+          <p> An app that helps users reach a state or relaxation. When selecting <a href="#">View more.</a></p>
         </li>
-        <li><div className='earg'><img src={flippers}/></div>
+        <li><div className='grow'><img src={flippers}/></div>
 
           <h3>Flippers</h3>
-          <p> <a href="https://flippers-tavern.firebaseapp.com/">View more.</a></p>
+          <p> <a href="https://flippers-tavern.firebaseapp.com/" target='_blank'>View more.</a></p>
         </li>
-        <li><div className='earg'><img src={pupfetch}/></div>
+        <li><div className='grow'><img src={pupfetch}/></div>
           <h3>Pupfetchr</h3>
-          <p><a href="#">View more.</a></p>
+          <p><a href="http://pupfetchrs.herokuapp.com/" target='_blank'>View more.</a></p>
         </li>
-        <li><div className='earg'><img src={tictac}/></div>
+        <li><div className='grow'><img src={tictac}/></div>
 
           <h3>Tic-Tac-Toe</h3>
           <p> <a href="#">View more.</a></p>

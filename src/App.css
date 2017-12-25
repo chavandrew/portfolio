@@ -3,6 +3,10 @@
 .App {
   text-align: center;
 }
+body {
+    background-color:white;
+}
+
 h2{
   font-family: 'Barlow', sans-serif;
   font-size: 84px;
@@ -10,7 +14,7 @@ h2{
   margin-bottom: 10px;
   margin-top: 5px;
 }
-p{
+p.dev{
   margin-bottom: 40px;
   font-family: 'Barlow', sans-serif;
   color:white;
@@ -30,6 +34,7 @@ font-family: 'Barlow';
   /* Position and center the image to scale nicely on all screens */
   background-position: bottom;
   background-size: cover;
+  width: 100%;
 }
 nav.tabs {
   max-width: 95%;
