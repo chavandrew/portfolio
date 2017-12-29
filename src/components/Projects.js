@@ -24,7 +24,7 @@ class Projects extends Component {
           <p> <a href="https://flippers-tavern.firebaseapp.com/" target='_blank'>View more.</a></p>
         </li>
         <li><div className='grow'><img src={pupfetch}/></div>
-          {/* <h3>Pupfetchr</h3> */}
+          <h3>Pupfetchr</h3>
           <p><a href="http://pupfetchrs.herokuapp.com/" target='_blank'>View more.</a></p>
         </li>
         <li><div className='grow'><img src={tictac}/></div>

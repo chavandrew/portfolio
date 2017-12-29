@@ -21,7 +21,7 @@ p.dev{
 }
 nav{
 padding: 0;
-display: flex;
+/*display: flex;*/
 list-style: none;
 justify-content: center;
 margin: 20px 0 60px 0;
