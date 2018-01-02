@@ -1,7 +1,21 @@
+.flex-b{
+  display:flex;
+}
+
 .resumecont{
   width:50%;
   position: center;
   display: block;
   margin: auto;
   margin-top: 20px;
+  margin-right: 10px;
+}
+/*.link{
+  float: right;
+}*/
+.click{
+  display: flex;
+ align-items: center;
+ flex-wrap: wrap;
+ margin-right: 70px;
 }

@@ -1,15 +1,30 @@
-.git-pic{
-  width: 05%;
-  margin: auto;
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+
+.git-pic, .linked-pic{
+  width: 10%;
+  margin-top: 150px;
+  margin-left: 40px;
 }
 .gmail1-pic{
-  width: 07%;
-  margin: auto;
+  width: 12%;
+  margin-top: 150px;
+  margin-left: 40px;
+
 }
 .flex{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: flex-end;
+
 }
 .git{
    color: black;
+}
+.info{
+  font-family: 'Barlow';
+}
+.imgs{
+  margin-left: 320px;
+
+
 }

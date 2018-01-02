@@ -7,7 +7,7 @@ class Home extends Component {
   render() {
     return (
       <div className='westgrass'>
-        <p>Hello, welcome to my website. If you look above at the tabs you can navigate to previous work, contact information and my good ol' resume. </p>
+        <p> </p>
 
      </div>
 
