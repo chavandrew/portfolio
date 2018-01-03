@@ -5,10 +5,10 @@ import './Footer.css';
 class Footer extends Component {
   render() {
     return (
-      <div>
+      <div className='footer'>
       <ul>
         <li>chavandrew@gmail.com</li>
-          <li>806 632-4182</li>
+          <li>(806) 632-4182</li>
             <li>Austin, TX</li>
       </ul>
 
