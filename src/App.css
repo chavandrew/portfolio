@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow');
-
+html, body{
+  height: 100%;
+}
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.response{
+  flex: 1 0 auto;
+  margin-top: auto;
 }
 body {
     background-color:white;
@@ -68,6 +76,7 @@ nav.tabs a.active {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 1rem;
+
 }
 @media (min-width: 550px) {
   .tabs{

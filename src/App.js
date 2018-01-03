@@ -21,6 +21,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+
         <Router>
               <div>
                 <div className="response">
@@ -34,7 +35,7 @@ class App extends Component {
                   <NavLink className='link' to='/resume'>resume</NavLink>{' '}
                   <NavLink className='link' to='/contact'>contact</NavLink>{' '}
                 </nav>
-
+            
             </div>
 
 
