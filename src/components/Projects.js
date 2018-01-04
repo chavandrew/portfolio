@@ -13,7 +13,7 @@ class Projects extends Component {
 
     <section className="responsive">
 
-      <ul className="grid-container">
+      <ul>
         <li> <div className='grow'><img src={eargsound}/></div>
           <h3>Eargasmr</h3>
           <p> An app that helps users reach a state or relaxation. When selecting <a href="#">View more.</a></p>

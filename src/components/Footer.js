@@ -7,7 +7,7 @@ class Footer extends Component {
     return (
       <div className='footer'>
       <ul>
-        <li>chavandrew@gmail.com</li>
+        <a href='mailto:chavandrew@gmail.com' target='_blank' className='git'><li>chavandrew@gmail.com</li></a>
           <li>(806) 632-4182</li>
             <li>Austin, TX</li>
       </ul>

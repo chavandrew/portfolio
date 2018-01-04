@@ -16,7 +16,9 @@ body {
     /*background: url('./assets/img/west-tex.png');
     background-size: cover;*/
 }
-
+.dev{
+  margin-right: 20px;
+}
 h2{
   font-family: 'Barlow', sans-serif;
   font-size: 84px;
