@@ -6,16 +6,9 @@
 .resumecont{
   display:flex;
   width: 35%;
-  /*position: center;
-  display: block;*/
-  /*margin: auto;
-  margin-top: 20px;
-  margin-right: 10px;*/
+
   justify-content: space-around;
 }
-/*.link{
-  float: right;
-}*/
 .click{
   display: flex;
  align-self: flex-end;

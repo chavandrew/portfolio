@@ -116,11 +116,11 @@ ul {
 
 
 }
-/*.grid-container{
+.grid-container{
   display:flex;
   align-items: column;
   flex-direction: row;
-}*/
+}
 li {
 background-color:#FFF;
   padding: 1rem;
