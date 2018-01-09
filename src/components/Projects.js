@@ -30,7 +30,7 @@ class Projects extends Component {
         <li><div className='grow'><img src={tictac}/></div>
 
           <h3>Tic-Tac-Toe</h3>
-          <p> The classic but always fun game of tic-tac-toe. This was my first project EVER! I really enjoyed this one, go ahead give a try!</p><a href="#">View more.</a>
+          <p> The classic but always fun game of tic-tac-toe. jQuery, Bootstrap, HTML, CSS</p><a href="#">View more.</a>
         </li>
       </ul>
     </section>

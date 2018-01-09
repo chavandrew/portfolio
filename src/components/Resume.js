@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Resume.css'
-import resume from '../assets/img/atomresume.png'
+import resume from '../assets/img/atomresume1.png'
 
 class Resume extends Component {
   render() {
@@ -8,7 +8,7 @@ class Resume extends Component {
       <div className='flex-b'>
         {/* <p className='click'> (click resume for pdf version)</p> */}
 
-      <div className='resumecont'><a className='link' href='https://drive.google.com/open?id=1EH58GuHit07t16dd0Nu5HFO9ubjX_t1Y' target='_blank'><img src={resume}/></a></div>
+      <div className='resumecont'><a className='link' href='https://drive.google.com/file/d/1i3fUtyFMMldyQEqVt8JIbefoGR7mu6PB/view?usp=sharing' target='_blank'><img src={resume}/></a></div>
 
     </div>
   );
