@@ -9,13 +9,13 @@
 
   justify-content: space-around;
 }
-.click{
+/*.click{
   display: flex;
  align-self: flex-end;
  flex-wrap: wrap;
  margin-right: 70px;
 
-}
+}*/
 @media (max-width: 670px) {
   .resumecont{
     min-width:  100%;

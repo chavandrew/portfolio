@@ -1,45 +1,6 @@
+
 @import url('https://fonts.googleapis.com/css?family=Barlow');
 
-/*.row,
-.row > .column {
-    padding: 8px;
-}*/
-
-/* Create four equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 25%;
-}
-
-/* Clear floats after rows */
-/*.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}*/
-
-/* Content */
-/*.content {
-    background-color: black;
-    padding: 10px;
-}*/
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media (max-width: 900px) {
-    .column {
-        width: 50%;
-    }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-}
-/** {
-  box-sizing: border-box;
-}*/
 
 body {
 font-family: 'Barlow';
@@ -47,11 +8,11 @@ font-family: 'Barlow';
   color: #333;
 }
 
-h1 a {
+/*h1 a {
   color: #333;
   text-decoration: none;
   border-bottom: 0;
-}
+}*/
 
 a {
   color: dodgerblue;
@@ -65,31 +26,18 @@ a:hover {
 }
 p{
   color: black;
+  font-family: 'Barlow';
 }
 
 img {
   /*display: block;*/
   width: 100%;
-
 }
 
 section {
-  margin: 2rem 3rem;
+  margin: 3rem 3rem;
 }
 
-h1 {
-  font-size: 4rem;
-
-  margin: 2rem 3rem;
-  border-bottom: 1px solid #BBB;
-
-}
-
-h2 {
-  font-size: 3rem;
-  margin: 0 0 0 15px;
-
-}
 
 h3 {
   font-size: 1.5rem;
@@ -98,44 +46,37 @@ h3 {
   font-family: 'Barlow';
 
 }
-p{
-  font-family: 'Barlow';
-}
+
 
 .responsive ul {
   /*display: grid;*/
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 1rem;
+  /*grid-gap: 1rem;*/
+
 }
-
-
 ul {
   list-style: none;
   margin: 0rem;
   padding: 1rem;
-
-
 }
 .grid-container{
-  display:flex;
-  align-items: column;
-  flex-direction: row;
+
 }
 li {
-background-color:#FFF;
+  background-color:#FFF;
   padding: 1rem;
   width: 100%;
-
+  /*display: flex;*/
 }
 .grow
 {
   border: 5px solid #FFF;
-    -moz-box-shadow: 0 1px 4px rgba(0,0,0,.3);
-    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.3);
-    box-shadow: 0 1px 4px rgba(0,0,0,.3);
-  display: flex;
-  flex-direction: column;
-
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,.3);
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.3);
+  box-shadow: 0 1px 4px rgba(0,0,0,.3);*/
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  width: 30%;
 }
 
 
@@ -144,3 +85,45 @@ background-color:#FFF;
     font-size: 2rem;
   }
 }
+@media (max-width: 650px){
+  .grow{
+    width: 80%;
+  }
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+/*.row,
+.row > .column {
+    padding: 8px;
+}*/
+
+/* Create four equal columns that floats next to each other */
+/*.column {
+    float: left;
+    width: 25%;
+}*/
+
+/* Clear floats after rows */
+/*.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}*/
+
+/* Content */
+/*.content {
+    background-color: black;
+    padding: 10px;
+}*/

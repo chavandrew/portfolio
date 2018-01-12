@@ -26,10 +26,11 @@ h2{
   margin-bottom: 10px;
   margin-top: 5px;
 }
-p.dev{
+.dev{
   margin-bottom: 40px;
   font-family: 'Barlow', sans-serif;
   color:white;
+  display: inline-block;
 }
 nav{
 padding: 0;
