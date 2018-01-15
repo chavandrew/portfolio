@@ -26,7 +26,7 @@ class App extends Component {
               <div>
                 <div className="response">
                 <div className='homeimg'>
-                    <h2> andrew chavez </h2>
+                    <h2> andrew chavez  </h2>
                     <p className='dev'> web developer</p>
 
                 <nav className='tabs'>
