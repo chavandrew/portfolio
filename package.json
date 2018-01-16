@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
+    "homepage": "http://chavandrew.github.io/portfolio",
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17"
@@ -13,6 +14,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages-deploy"
+    "pre-deploy": "npm run build",
+    "deploy": "gh-pages -d build "
   }
 }
