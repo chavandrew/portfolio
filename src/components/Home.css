@@ -1,0 +1,24 @@
+.westgrass{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+
+}
+.me{
+  width: 50%;
+  /*margin-left: 300px;*/
+  margin-top: 20px;
+  box-shadow: 4px 8px 8px 8px rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+}
+.aboutme{
+  align-self: center;
+  font-size:20px;
+  display: inline;
+  margin-right: 30px;
+}
+@media (max-width: 500px) {
+    .me {
+        width: auto;
+    }
+}
