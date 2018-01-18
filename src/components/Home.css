@@ -1,25 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow');
 .westgrass{
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-around;
 
 }
 .me{
-  width: 50%;
-  margin-left: 300px;
+  width: 60%;
+  margin: auto;
+  /*margin-left: 300px;*/
   margin-top: 20px;
   box-shadow: 4px 8px 8px 8px rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  justify-content: center;
+  flex-direction: column;
+
+}
+.one{
+
 }
 .aboutme{
   align-self: center;
   font-size:20px;
   display: inline;
-  margin-right: 30px;
+  font-family: 'Barlow';
+  justify-content: center;
+
 }
+.nice{
+  color: #3DA35D;
+  font-size: 30px;
+}
+.hello{
+  font-size: 47px;
+  font-weight: 600;
+  color:#3DA35D;
+  font-weight: bold;
+}
+
 @media (max-width: 1000px) {
     .me {
-        width: auto;
+        width: 100%;
+        margin-left: auto;
+    }
+}
+@media (max-width: 500px) {
+    .hello{
+      font-size:20px;
+    }
+}
+@media (max-width: 500px) {
+    .nice {
+        font-size: 20px;
         margin-left: auto;
     }
 }

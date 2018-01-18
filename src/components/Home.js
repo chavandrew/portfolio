@@ -7,8 +7,9 @@ class Home extends Component {
   render() {
     return (
       <div className='westgrass'>
-        <div className='me'><img src={andrew}/></div>
-        <p className='aboutme'>hello, welcome to my personal website. I like to build things,fix things, travel, play music, walk my dog,run a mile and bowl. </p>
+        <div className='one'><img className='me' src={andrew}/></div>
+      <div>  <p className='aboutme'><span className='hello'>hello</span><span className='nice'> - welcome to my website, I like clean design and writing functional code.</span> </p>
+        </div>
 
      </div>
 
