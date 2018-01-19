@@ -6,8 +6,7 @@ import{
   Route,
   Link,
   NavLink,
-  Switch,
-  HashRouter
+  Switch
 } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home';
@@ -23,7 +22,7 @@ class App extends Component {
     return (
       <div className="App">
 
-        <HashRouter>
+        <Router>
               <div>
                 <div className="response">
                 <div className='homeimg'>
@@ -49,7 +48,7 @@ class App extends Component {
 
             </div>
             </div>
-        </HashRouter>
+        </Router>
 
 
         <Footer />
