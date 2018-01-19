@@ -30,7 +30,7 @@ class App extends Component {
                     <p className='dev'> web developer</p>
 
                 <nav className='tabs'>
-                  <NavLink className='link' exact to="/portfolio/">home</NavLink>{' '}
+                  <NavLink className='link' exact to="/">home</NavLink>{' '}
                   <NavLink className='link' to='/projects'>projects</NavLink>{' '}
                   <NavLink className='link' to='/resume'>resume</NavLink>{' '}
                   <NavLink className='link' to='/contact'>contact</NavLink>{' '}
@@ -40,7 +40,7 @@ class App extends Component {
 
 
                 <Switch>
-                  <Route exact path="/portfolio/" component={Home} />
+                  <Route exact path="/" component={Home} />
                  <Route path="/projects" component={Projects} />
                  <Route path="/resume" component={Resume} />
                  <Route path="/contact" component={Contact} />
