@@ -3,16 +3,16 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+    margin-right: 200px;
 
 }
 .me{
-  width: 60%;
+  width: 70%;
   margin: auto;
-  /*margin-left: 300px;*/
   margin-top: 20px;
   box-shadow: 4px 8px 8px 8px rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   flex-direction: column;
-
+  margin-left: 35px;
 }
 .one{
 
@@ -23,7 +23,6 @@
   display: inline;
   font-family: 'Barlow';
   justify-content: center;
-
 }
 .nice{
   color: #3DA35D;
@@ -44,12 +43,18 @@
 }
 @media (max-width: 500px) {
     .hello{
-      font-size:20px;
+      font-size:30px;
+      margin: auto;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .nice {
         font-size: 20px;
         margin-left: auto;
+    }
+}
+@media (max-width: 500px) {
+    .westgrass{
+    margin-right: auto;
     }
 }
