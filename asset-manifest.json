@@ -1,8 +1,9 @@
 {
-  "main.css": "static/css/main.9f3a56a8.css",
-  "main.css.map": "static/css/main.9f3a56a8.css.map",
-  "main.js": "static/js/main.af20338b.js",
-  "main.js.map": "static/js/main.af20338b.js.map",
+  "main.css": "static/css/main.99732da6.css",
+  "main.css.map": "static/css/main.99732da6.css.map",
+  "main.js": "static/js/main.54895e5d.js",
+  "main.js.map": "static/js/main.54895e5d.js.map",
+  "static/media/andrew1.jpeg": "static/media/andrew1.818739a8.jpeg",
   "static/media/atomresume1.png": "static/media/atomresume1.616dcbb9.png",
   "static/media/earg-mix.png": "static/media/earg-mix.08fb1378.png",
   "static/media/earg-sound.png": "static/media/earg-sound.a67ff12e.png",
@@ -10,6 +11,5 @@
   "static/media/gmail1.png": "static/media/gmail1.be18b9c8.png",
   "static/media/pupfetch.png": "static/media/pupfetch.e92683e4.png",
   "static/media/tic-tac.png": "static/media/tic-tac.6ab08373.png",
-  "static/media/west-tex.png": "static/media/west-tex.ee2c4694.png",
-  "static/media/westgrass.jpg": "static/media/westgrass.4def8398.jpg"
+  "static/media/west-tex.png": "static/media/west-tex.ee2c4694.png"
 }
