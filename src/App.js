@@ -28,23 +28,19 @@ class App extends Component {
                 <div className='homeimg'>
                     <h2> andrew chavez  </h2>
                     <p className='dev'> web developer</p>
-
-                <nav className='tabs'>
+            <nav className='tabs'>
                   <NavLink className='link' exact to="/">home</NavLink>{' '}
                   <NavLink className='link' to='/projects'>projects</NavLink>{' '}
                   <NavLink className='link' to='/resume'>resume</NavLink>{' '}
                   <NavLink className='link' to='/contact'>contact</NavLink>{' '}
                 </nav>
-
             </div>
-
-
                 <Switch>
-                  <Route exact path="/" component={Home} />
+                 <Route exact path="/" component={Home} />
                  <Route path="/projects" component={Projects} />
                  <Route path="/resume" component={Resume} />
                  <Route path="/contact" component={Contact} />
-              </Switch>
+               </Switch>
 
             </div>
             </div>

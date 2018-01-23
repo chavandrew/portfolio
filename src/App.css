@@ -40,13 +40,14 @@ margin: 20px 0 60px 0;
 font-family: 'Barlow';
 }
 .homeimg{
-  background: url('./assets/img/west-tex.png');
+  background: url('./assets/img/polariod-flowers.jpg');
 
   height: 60%;
   /* Position and center the image to scale nicely on all screens */
-  background-position: bottom;
-  background-size: cover;
+  background-position:  right;
+  background-size:cover;
   width: 100%;
+  zoom: 93%;
 }
 nav.tabs {
   max-width: 95%;
