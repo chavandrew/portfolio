@@ -31,7 +31,7 @@ h2{
   font-family: 'Barlow', sans-serif;
   color:white;
   display: inline-block;
-  font-size: 180%;
+  font-size: 140%;
 }
 nav{
 padding: 0;
@@ -48,7 +48,7 @@ font-family: 'Barlow';
   background-position:  left;
   background-size: auto;
   width: 100%;
-  zoom: 93%;
+  zoom: 96%;
 }
 nav.tabs {
   max-width: 95%;
